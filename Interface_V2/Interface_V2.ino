@@ -67,7 +67,7 @@ void setup()
   pinMode(13, OUTPUT);
 
   digitalWrite(13, 0);
-  Serial.println("Interface V1");
+  Serial.println("Interface V2");
   attachInterrupt(digitalPinToInterrupt(clkPin), processBits, FALLING);
 }
 void printCodes()
